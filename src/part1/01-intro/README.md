@@ -1,6 +1,6 @@
 # Introduction
 
-Zylisp is a Lisp dialect that brings together two seemingly disparate programming traditions: the expressive, homoiconic power of Lisp and the pragmatic, concurrent design of Go. It is a language for building reliable, concurrent systems while maintaining the flexibility and metaprogramming capabilities that have made Lisp enduringly relevant for over six decades.
+Zylisp is a modern Lisp dialect that compiles to Go, bringing together two seemingly disparate programming traditions: the expressive, homoiconic power of Lisp and the pragmatic, concurrent design of Go. It unites Lisp's metaprogramming capabilities with contemporary language features—static typing with inference, immutability by default, sophisticated pattern matching, and Go's proven concurrency model—creating a language for building reliable, concurrent systems whilst maintaining the flexibility that has made Lisp enduringly relevant for over six decades.
 
 At its core, Zylisp embraces immutability by default. Data structures are persistent and immutable, enabling fearless concurrent programming without sacrificing the elegance of functional composition. Yet when performance demands it, the language provides well-defined escape hatches through its unsafe package and mutable operations. This design philosophy extends throughout: strong opinions with practical exits.
 

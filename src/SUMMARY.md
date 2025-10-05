@@ -22,7 +22,10 @@
     - [Clojure](./part1/01-intro/origins/clojure.md)
     - [LFE](./part1/01-intro/origins/lfe.md)
     - [Go](./part1/01-intro/origins/go.md)
-  - [The Zylisp Project](./part1/01-intro/the-project.md)
+  - [The Zylisp Project](./part1/01-intro/the-project/README.md)
+    - [Code Repositories](./part1/01-intro/the-project/repos.md)
+    - [How It All Fits Together](./part1/01-intro/the-project/components.md)
+    - [Contributing](./part1/01-intro/the-project/contrib.md)
   - [Book Organisation](./part1/01-intro/book-org.md)
 
 - [Welcome to Zylisp](./part1/02-welcome/README.md)
