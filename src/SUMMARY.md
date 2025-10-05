@@ -16,7 +16,12 @@
 
 - [Introduction](./part1/01-intro/README.md)
   - [Why Zylisp?](./part1/01-intro/why-zylisp.md)
-  - [Origins](./part1/01-intro/origins.md)
+  - [Origins](./part1/01-intro/origins/README.md)
+    - [ZetaLisp](./part1/01-intro/origins/zetalisp.md)
+    - [Erlang](./part1/01-intro/origins/erlang.md)
+    - [Clojure](./part1/01-intro/origins/clojure.md)
+    - [LFE](./part1/01-intro/origins/lfe.md)
+    - [Go](./part1/01-intro/origins/go.md)
   - [The Zylisp Project](./part1/01-intro/the-project.md)
   - [Book Organisation](./part1/01-intro/book-org.md)
 
