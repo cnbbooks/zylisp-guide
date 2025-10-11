@@ -193,8 +193,17 @@ Five programming languages ultimately led to the creation of Zylisp:
 
 Or, in order of most influence:
 
-* Erlang, LFE, and Go (all tied for first place)
-* ZetaLisp and Clojure (also tied)
+* LFE
+* Go
+* Erlang
+* ZetaLisp
+* Clojure
+
+The ordering of the above is very particular: in implemeting LFE, Robert Virding essentially created a near-textbook for future language designers, especially those who wish to implement dialects of another language on that base language's VM. Zylisp has to make many of the same desicions that LFE did, and where foundational language restrictions didn't apply, Zylisp makes nearly all the same choices that Robert did. This is not blind trust nor over enthusiastic devotion: it's merely following excellent advice and good decisn decisions.
+
+While Zylisp is built on top of Go and _completely_ depends upon the almost unbelievably good AST the Go team created -- even with all of that, LFE has made a bigger impact on Zylisp. The impact of Erlang's OTP on Zylisp's design is also quite significant, and might have exceeded the influence of Go itself, if Go's AST had been any less remarkable.
+
+ZetaLisp had an impact on both LFE and Zylisp, and the ZetaLisp documentation remained a touchstone throughout the development of Zylisp. Clojure's impact has come from not only its incredible selection of beautifully hand-crafted language macros, but via its extraordinary standard library: Clojure may have one of the most internally consistent language libraries ever created.
 
 These core influences represent unique, if not entirely distinct evolutionary branches in programming language history, each drawing from overlapping but different ancestral lines. Go (2009) emerged from Google and Bell Labs heritage, consolidating systems programming efficiency with CSP-based concurrency to address software engineering at massive scale. ZetaLisp (~1980) descended from MIT's AI Lab as the pinnacle of the original Lisp tradition, optimized for dedicated hardware and enriched with Smalltalk-inspired object orientation. Erlang (1986-1998) was forged at Ericsson to solve telecommunications challenges through revolutionary concurrency primitives and fault-tolerance mechanisms born from PLEX and Prolog. Clojure (2007) brought Lisp philosophy into the modern era with immutability-first design, persistent data structures, and pragmatic JVM integration. LFE (2007-2008) represents a unique convergence, uniting Lisp's metaprogramming power with Erlang's battle-tested concurrency model through Robert Virding's dual expertise as both Erlang co-creator and Lisp implementer.
 
